@@ -78,8 +78,6 @@ The built-in marker detection support in Meshroom is rather obviously an afterth
 
     The marker feature describer files generated from the supplied data will be placed in this folder. This folder can then be added to the Features Folders input of the FeatureMatching node. (The desired marker family feature type - cctag3 or cctag4 - has to be manually enabled in the FeatureMatching node!!!)
 
-
-
     NOTE: A known issue(on Windows) is that when the SFM node uses the CCTAG describer, if you manually enter the SFM node's input paths (such as SfMData and Features Folders), please verify the drive letter's case. Otherwise, a fatal error: "Error while loading markers regions" will occur at the end of the SFM process. This issue does not occur when using other describer types.
 
 ## SfMTransformFromMarkers node
